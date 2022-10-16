@@ -1,0 +1,19 @@
+.menu {
+  height: 80px;
+  background: #1c2b35;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 140px;
+}
+.menu-links a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 36px;
+}
+.menu-links a:hover {
+  color: #ff9900;
+}
+.active {
+  color: #ff9900 !important;
+}
