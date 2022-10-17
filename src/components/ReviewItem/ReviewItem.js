@@ -14,7 +14,7 @@ const ReviewItem = ({ product, handleRemoveItem }) => {
         <div className="review-details">
           <p>{name}</p>
           <p>Price: ${price}</p>
-          <p>Price: ${shipping}</p>
+          <p>Shipping: ${shipping}</p>
           <p>Quantity: {quantity}</p>
         </div>
         <div className="delete-container">

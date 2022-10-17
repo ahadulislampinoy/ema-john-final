@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 140px;
+  padding: 0 100px;
 }
 .menu-links a {
   text-decoration: none;
@@ -16,4 +16,16 @@
 }
 .active {
   color: #ff9900 !important;
+}
+.signout-btn {
+  border: 0;
+  background: transparent;
+  color: #fff;
+  color: #fff;
+  margin-left: 36px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.signout-btn:hover {
+  color: #ff9900;
 }

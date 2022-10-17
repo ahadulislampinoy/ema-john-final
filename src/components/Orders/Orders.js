@@ -1,3 +1,6 @@
+import { faShippingFast } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import React, { useState } from "react";
 import { Link, useLoaderData } from "react-router-dom";
 import { deleteShoppingCart, removeFromDb } from "../../utilities/fakedb";
@@ -38,7 +41,13 @@ const Orders = () => {
           )}
         </div>
         <div className="cart-container">
-          <Cart cart={cart} clerCart={clerCart} />
+          <Cart cart={cart} clerCart={clerCart}>
+            <Link to="/shipping">
+              <button className="btn-review">
+                Process Shipping <FontAwesomeIcon icon={faShippingFast} />
+              </button>
+            </Link>
+          </Cart>
         </div>
       </div>
     </div>
