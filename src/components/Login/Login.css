@@ -54,6 +54,7 @@
   color: #0e161a;
   border: none;
   padding-left: 10px;
+  transition: all linear 0.5s;
 }
 
 .btn-submit:hover {

@@ -30,8 +30,6 @@ const Header = () => {
           Shop
         </NavLink>
         <NavLink to="/orders">Orders</NavLink>
-        <NavLink to="/inventory">Inventory</NavLink>
-        <NavLink to="/about">About</NavLink>
         {user?.uid ? (
           <button onClick={handleSignOut} className="signout-btn">
             Sign Out
